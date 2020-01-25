@@ -1,0 +1,47 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=Citizen+Cope&type=artist&offset=0&limit=2",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7enBrBojgBJuPPdqTq4Z5F"
+        },
+        "followers": {
+          "href": null,
+          "total": 251834
+        },
+        "genres": [
+          "neo mellow"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7enBrBojgBJuPPdqTq4Z5F",
+        "id": "7enBrBojgBJuPPdqTq4Z5F",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/e7e2c9dfa915d3efe87b9bc1c3cc42165a68fb23",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/30c4dfd0bd7114db569c60494bbed767ddcdcc01",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/aa9c396692b61fc1036f11fa2be35afa7631b901",
+            "width": 160
+          }
+        ],
+        "name": "Citizen Cope",
+        "popularity": 62,
+        "type": "artist",
+        "uri": "spotify:artist:7enBrBojgBJuPPdqTq4Z5F"
+      }
+    ],
+    "limit": 2,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 2
+  }
+}

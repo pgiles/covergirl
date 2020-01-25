@@ -1,0 +1,11 @@
+# Intellij\
+.idea/**
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+client_secret
+encoded_credential
+token

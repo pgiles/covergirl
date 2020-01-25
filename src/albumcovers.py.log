@@ -1,0 +1,220 @@
+2020-01-24 20:48:37,398 - root - DEBUG - Album folder or artist art missing: C:\opt\Tunes\Alanis Morissette ImaWhinyCanadianBitch.mp3
+2020-01-24 20:48:37,398 - root - DEBUG - Album folder or artist art missing: C:\opt\Tunes\Audioslave Audioslave - Audioslave - 05 - Like a Stone.mp3
+2020-01-24 20:48:37,400 - root - DEBUG - album_art AC-DC Back In Black C:\opt\Tunes\AC-DC\Back In Black
+2020-01-24 20:48:37,400 - spotify - DEBUG - Fetching album info for: AC-DC Back In Black
+2020-01-24 20:48:37,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:37,790 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+AC-DC+album%3A+Back+In+Black&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:37,799 - root - INFO - Adding album art to: C:\opt\Tunes\AC-DC\Back In Black
+2020-01-24 20:48:37,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:38,055 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b273e02589301e7f4b222312bed0 HTTP/1.1" 200 22482
+2020-01-24 20:48:38,055 - grabber - DEBUG - C:\opt\Tunes\AC-DC\Back In Black\cover.jpg
+2020-01-24 20:48:38,069 - root - DEBUG - album_art AC-DC Ballbreaker C:\opt\Tunes\AC-DC\Ballbreaker
+2020-01-24 20:48:38,069 - spotify - DEBUG - Fetching album info for: AC-DC Ballbreaker
+2020-01-24 20:48:38,071 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:38,250 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+AC-DC+album%3A+Ballbreaker&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:38,253 - root - INFO - Adding album art to: C:\opt\Tunes\AC-DC\Ballbreaker
+2020-01-24 20:48:38,255 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:38,342 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b27359bfee1b0269d2fb7065cd9f HTTP/1.1" 200 175319
+2020-01-24 20:48:38,342 - grabber - DEBUG - C:\opt\Tunes\AC-DC\Ballbreaker\cover.jpg
+2020-01-24 20:48:38,407 - root - DEBUG - album_art AC-DC Who Made Who C:\opt\Tunes\AC-DC\Who Made Who
+2020-01-24 20:48:38,407 - spotify - DEBUG - Fetching album info for: AC-DC Who Made Who
+2020-01-24 20:48:38,411 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:38,565 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+AC-DC+album%3A+Who+Made+Who&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:38,571 - root - INFO - Adding album art to: C:\opt\Tunes\AC-DC\Who Made Who
+2020-01-24 20:48:38,572 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:38,674 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b2733a3fe184eba3438f5406073f HTTP/1.1" 200 133584
+2020-01-24 20:48:38,676 - grabber - DEBUG - C:\opt\Tunes\AC-DC\Who Made Who\cover.jpg
+2020-01-24 20:48:38,721 - root - DEBUG - album_art Akon Konvicted C:\opt\Tunes\Akon\Konvicted
+2020-01-24 20:48:38,721 - spotify - DEBUG - Fetching album info for: Akon Konvicted
+2020-01-24 20:48:38,723 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:38,921 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Akon+album%3A+Konvicted&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:38,927 - root - INFO - Adding album art to: C:\opt\Tunes\Akon\Konvicted
+2020-01-24 20:48:38,928 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:39,017 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/11dd23c074503352cc5c4ac311ddbaf84756f713 HTTP/1.1" 200 135799
+2020-01-24 20:48:39,017 - grabber - DEBUG - C:\opt\Tunes\Akon\Konvicted\cover.jpg
+2020-01-24 20:48:39,032 - root - DEBUG - album_art Alanis Morissette Jagged Little Pill C:\opt\Tunes\Alanis Morissette\Jagged Little Pill
+2020-01-24 20:48:39,032 - spotify - DEBUG - Fetching album info for: Alanis Morissette Jagged Little Pill
+2020-01-24 20:48:39,033 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:39,176 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Alanis+Morissette+album%3A+Jagged+Little+Pill&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:39,178 - root - INFO - Adding album art to: C:\opt\Tunes\Alanis Morissette\Jagged Little Pill
+2020-01-24 20:48:39,180 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:39,298 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b273d3f19b530a225f714dccc43e HTTP/1.1" 200 132717
+2020-01-24 20:48:39,298 - grabber - DEBUG - C:\opt\Tunes\Alanis Morissette\Jagged Little Pill\cover.jpg
+2020-01-24 20:48:39,313 - root - DEBUG - album_art Alice In Chains Black Gives Way To Blue C:\opt\Tunes\Alice In Chains\Black Gives Way To Blue
+2020-01-24 20:48:39,313 - spotify - DEBUG - Fetching album info for: Alice In Chains Black Gives Way To Blue
+2020-01-24 20:48:39,315 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:39,451 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Alice+In+Chains+album%3A+Black+Gives+Way+To+Blue&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:39,459 - root - INFO - Adding album art to: C:\opt\Tunes\Alice In Chains\Black Gives Way To Blue
+2020-01-24 20:48:39,464 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:39,569 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/1d6f764e4fb3bfae948d5d741a2a1dae42b090e5 HTTP/1.1" 200 119607
+2020-01-24 20:48:39,569 - grabber - DEBUG - C:\opt\Tunes\Alice In Chains\Black Gives Way To Blue\cover.jpg
+2020-01-24 20:48:39,586 - root - DEBUG - album_art Alice In Chains MTV Unplugged C:\opt\Tunes\Alice In Chains\MTV Unplugged
+2020-01-24 20:48:39,586 - spotify - DEBUG - Fetching album info for: Alice In Chains MTV Unplugged
+2020-01-24 20:48:39,588 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:39,736 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Alice+In+Chains+album%3A+MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:39,749 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:39,927 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:39,934 - root - ERROR - Missing album art image URL: {'album': 'MTV Unplugged', 'location': 'C:\\opt\\Tunes\\Alice In Chains\\MTV Unplugged', 'artist': 'Alice In Chains'}
+2020-01-24 20:48:39,934 - root - DEBUG - album_art Audioslave 2005 - Out Of Exile C:\opt\Tunes\Audioslave\2005 - Out Of Exile
+2020-01-24 20:48:39,934 - spotify - DEBUG - Fetching album info for: Audioslave 2005 - Out Of Exile
+2020-01-24 20:48:39,940 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:40,076 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Audioslave+album%3A+2005+-+Out+Of+Exile&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:40,085 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:40,219 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=2005+-+Out+Of+Exile&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:48:40,224 - root - ERROR - Missing album art image URL: {'album': '2005 - Out Of Exile', 'location': 'C:\\opt\\Tunes\\Audioslave\\2005 - Out Of Exile', 'artist': 'Audioslave'}
+2020-01-24 20:48:40,226 - root - DEBUG - artist_art C:\opt\Tunes\AC-DC AC-DC
+2020-01-24 20:48:40,226 - spotify - DEBUG - Fetching artist info for: AC-DC
+2020-01-24 20:48:40,230 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:40,374 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=AC-DC&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:48:40,378 - root - INFO - Adding artist art to: C:\opt\Tunes\AC-DC
+2020-01-24 20:48:40,380 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:40,466 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/a16c5d95ede008ec905d6ca6d1b5abbf39ad4566 HTTP/1.1" 200 253996
+2020-01-24 20:48:40,467 - grabber - DEBUG - C:\opt\Tunes\AC-DC\artist.jpg
+2020-01-24 20:48:40,513 - root - DEBUG - artist_art C:\opt\Tunes\Alice In Chains Alice In Chains
+2020-01-24 20:48:40,513 - spotify - DEBUG - Fetching artist info for: Alice In Chains
+2020-01-24 20:48:40,515 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:40,665 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Alice+In+Chains&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:48:40,667 - root - INFO - Adding artist art to: C:\opt\Tunes\Alice In Chains
+2020-01-24 20:48:40,671 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:40,779 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/5ccc3b59f6a4f44299a360d9fd3f45b69729654f HTTP/1.1" 200 126393
+2020-01-24 20:48:40,779 - grabber - DEBUG - C:\opt\Tunes\Alice In Chains\artist.jpg
+2020-01-24 20:48:40,815 - root - DEBUG - artist_art C:\opt\Tunes\Akon Akon
+2020-01-24 20:48:40,815 - spotify - DEBUG - Fetching artist info for: Akon
+2020-01-24 20:48:40,816 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:40,947 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Akon&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:48:40,953 - root - INFO - Adding artist art to: C:\opt\Tunes\Akon
+2020-01-24 20:48:40,953 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:41,045 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/20745ad5adc438c4aec164ca3cc2e04ed3abcb99 HTTP/1.1" 200 56369
+2020-01-24 20:48:41,046 - grabber - DEBUG - C:\opt\Tunes\Akon\artist.jpg
+2020-01-24 20:48:41,052 - root - DEBUG - artist_art C:\opt\Tunes\Audioslave Audioslave
+2020-01-24 20:48:41,052 - spotify - DEBUG - Fetching artist info for: Audioslave
+2020-01-24 20:48:41,055 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:41,224 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Audioslave&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:48:41,230 - root - INFO - Adding artist art to: C:\opt\Tunes\Audioslave
+2020-01-24 20:48:41,236 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:41,387 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/6580ba0600d86090333e63eba6b17557cb6c49ac HTTP/1.1" 200 114179
+2020-01-24 20:48:41,388 - grabber - DEBUG - C:\opt\Tunes\Audioslave\artist.jpg
+2020-01-24 20:48:41,401 - root - DEBUG - artist_art C:\opt\Tunes\Alanis Morissette Alanis Morissette
+2020-01-24 20:48:41,401 - spotify - DEBUG - Fetching artist info for: Alanis Morissette
+2020-01-24 20:48:41,404 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:48:41,572 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Alanis+Morissette&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:48:41,572 - root - INFO - Adding artist art to: C:\opt\Tunes\Alanis Morissette
+2020-01-24 20:48:41,575 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:48:41,653 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/6f89036ae390073cc0ac420f087b7c84ecaaa068 HTTP/1.1" 200 119302
+2020-01-24 20:48:41,654 - grabber - DEBUG - C:\opt\Tunes\Alanis Morissette\artist.jpg
+2020-01-24 20:52:48,493 - root - DEBUG - album_art Alice In Chains MTV Unplugged C:\opt\Tunes\Alice In Chains\MTV Unplugged
+2020-01-24 20:52:48,493 - spotify - DEBUG - Fetching album info for: Alice In Chains MTV Unplugged
+2020-01-24 20:52:48,496 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:52:48,785 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Alice+In+Chains+album%3A+MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:52:48,796 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:52:48,930 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:52:48,934 - root - ERROR - Missing album art image URL: {'album': 'MTV Unplugged', 'location': 'C:\\opt\\Tunes\\Alice In Chains\\MTV Unplugged', 'artist': 'Alice In Chains'}
+2020-01-24 20:52:48,934 - root - DEBUG - album_art Audioslave Out Of Exile C:\opt\Tunes\Audioslave\Out Of Exile
+2020-01-24 20:52:48,934 - spotify - DEBUG - Fetching album info for: Audioslave Out Of Exile
+2020-01-24 20:52:48,937 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:52:49,088 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Audioslave+album%3A+Out+Of+Exile&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 20:52:49,095 - root - INFO - Adding album art to: C:\opt\Tunes\Audioslave\Out Of Exile
+2020-01-24 20:52:49,101 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:52:49,214 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/6fec28d92d0e4ea644e99e9b2e3358f653e59315 HTTP/1.1" 200 96087
+2020-01-24 20:52:49,214 - grabber - DEBUG - C:\opt\Tunes\Audioslave\Out Of Exile\cover.jpg
+2020-01-24 20:52:49,243 - root - DEBUG - artist_art C:\opt\Tunes\Audioslave Audioslave
+2020-01-24 20:52:49,243 - spotify - DEBUG - Fetching artist info for: Audioslave
+2020-01-24 20:52:49,244 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:52:49,398 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Audioslave&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:52:49,400 - root - INFO - Adding artist art to: C:\opt\Tunes\Audioslave
+2020-01-24 20:52:49,401 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:52:49,486 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/6580ba0600d86090333e63eba6b17557cb6c49ac HTTP/1.1" 200 114179
+2020-01-24 20:52:49,487 - grabber - DEBUG - C:\opt\Tunes\Audioslave\artist.jpg
+2020-01-24 20:52:49,503 - root - DEBUG - artist_art C:\opt\Tunes\Alice In Chains Alice In Chains
+2020-01-24 20:52:49,503 - spotify - DEBUG - Fetching artist info for: Alice In Chains
+2020-01-24 20:52:49,507 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 20:52:49,634 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Alice+In+Chains&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 20:52:49,635 - root - INFO - Adding artist art to: C:\opt\Tunes\Alice In Chains
+2020-01-24 20:52:49,638 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 20:52:49,721 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/5ccc3b59f6a4f44299a360d9fd3f45b69729654f HTTP/1.1" 200 126393
+2020-01-24 20:52:49,723 - grabber - DEBUG - C:\opt\Tunes\Alice In Chains\artist.jpg
+2020-01-24 21:15:02,013 - root - DEBUG - Album folder or artist art missing: C:\opt\_Misc\Edie Brickell & The New Bohemians Edie Brickell & The New Bohemians - Circle of Friends.mp3
+2020-01-24 21:15:02,019 - root - DEBUG - Album folder or artist art missing: C:\opt\_Misc\The John Butler Trio The John Butler Trio - Johnnys Gone.mp3
+2020-01-24 21:15:02,019 - root - DEBUG - album_art Days Of The New The Crow- Salvation Soundtrack C:\opt\_Misc\Days Of The New\The Crow- Salvation Soundtrack
+2020-01-24 21:15:02,019 - root - INFO - Adding album art to: C:\opt\_Misc\Days Of The New\The Crow- Salvation Soundtrack
+2020-01-24 21:15:02,020 - root - DEBUG - album_art Jewel Grammy Nominees 1997 C:\opt\_Misc\Jewel\Grammy Nominees 1997
+2020-01-24 21:15:02,020 - root - INFO - Adding album art to: C:\opt\_Misc\Jewel\Grammy Nominees 1997
+2020-01-24 21:15:02,020 - root - DEBUG - album_art Lynyrd Skynyrd Gold and Platinum C:\opt\_Misc\Lynyrd Skynyrd\Gold and Platinum
+2020-01-24 21:15:02,020 - root - INFO - Adding album art to: C:\opt\_Misc\Lynyrd Skynyrd\Gold and Platinum
+2020-01-24 21:15:02,020 - root - DEBUG - album_art Mazzy Star Cruel Intentions C:\opt\_Misc\Mazzy Star\Cruel Intentions
+2020-01-24 21:15:02,020 - root - INFO - Adding album art to: C:\opt\_Misc\Mazzy Star\Cruel Intentions
+2020-01-24 21:15:02,020 - root - DEBUG - album_art Michael Jackson History (Disc 1) C:\opt\_Misc\Michael Jackson\History (Disc 1)
+2020-01-24 21:15:02,020 - root - INFO - Adding album art to: C:\opt\_Misc\Michael Jackson\History (Disc 1)
+2020-01-24 21:15:02,020 - root - DEBUG - album_art Soggy Bottom Boys O Brother, Where Art Thou C:\opt\_Misc\Soggy Bottom Boys\O Brother, Where Art Thou
+2020-01-24 21:15:02,020 - root - INFO - Adding album art to: C:\opt\_Misc\Soggy Bottom Boys\O Brother, Where Art Thou
+2020-01-24 21:15:02,022 - root - DEBUG - album_art State Radio Us Against the Crown C:\opt\_Misc\State Radio\Us Against the Crown
+2020-01-24 21:15:02,022 - root - INFO - Adding album art to: C:\opt\_Misc\State Radio\Us Against the Crown
+2020-01-24 21:15:02,022 - root - DEBUG - album_art The Kinks Super Hits Of The 70s C:\opt\_Misc\The Kinks\Super Hits Of The 70s
+2020-01-24 21:15:02,022 - root - INFO - Adding album art to: C:\opt\_Misc\The Kinks\Super Hits Of The 70s
+2020-01-24 21:15:02,022 - root - DEBUG - artist_art C:\opt\_Misc\Jewel Jewel
+2020-01-24 21:15:02,022 - root - INFO - Adding artist art to: C:\opt\_Misc\Jewel
+2020-01-24 21:15:02,022 - root - DEBUG - artist_art C:\opt\_Misc\Michael Jackson Michael Jackson
+2020-01-24 21:15:02,022 - root - INFO - Adding artist art to: C:\opt\_Misc\Michael Jackson
+2020-01-24 21:15:02,022 - root - DEBUG - artist_art C:\opt\_Misc\The John Butler Trio The John Butler Trio
+2020-01-24 21:15:02,022 - root - INFO - Adding artist art to: C:\opt\_Misc\The John Butler Trio
+2020-01-24 21:15:02,022 - root - DEBUG - artist_art C:\opt\_Misc\Edie Brickell & The New Bohemians Edie Brickell & The New Bohemians
+2020-01-24 21:15:02,022 - root - INFO - Adding artist art to: C:\opt\_Misc\Edie Brickell & The New Bohemians
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\Soggy Bottom Boys Soggy Bottom Boys
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\Soggy Bottom Boys
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\The Kinks The Kinks
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\The Kinks
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\Mazzy Star Mazzy Star
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\Mazzy Star
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\Lynyrd Skynyrd Lynyrd Skynyrd
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\Lynyrd Skynyrd
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\State Radio State Radio
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\State Radio
+2020-01-24 21:15:02,023 - root - DEBUG - artist_art C:\opt\_Misc\Days Of The New Days Of The New
+2020-01-24 21:15:02,023 - root - INFO - Adding artist art to: C:\opt\_Misc\Days Of The New
+2020-01-24 21:16:04,562 - root - DEBUG - album_art Alice In Chains MTV Unplugged C:\opt\Tunes\Alice In Chains\MTV Unplugged
+2020-01-24 21:16:04,562 - spotify - DEBUG - Fetching album info for: Alice In Chains MTV Unplugged
+2020-01-24 21:16:04,565 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:04,868 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Alice+In+Chains+album%3A+MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 21:16:04,872 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:05,017 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=MTV+Unplugged&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 21:16:05,025 - root - ERROR - Missing album art image URL: {'album': 'MTV Unplugged', 'location': 'C:\\opt\\Tunes\\Alice In Chains\\MTV Unplugged', 'artist': 'Alice In Chains'}
+2020-01-24 21:16:05,026 - root - DEBUG - album_art Avril Lavigne Let Go C:\opt\Tunes\Avril Lavigne\Let Go
+2020-01-24 21:16:05,026 - spotify - DEBUG - Fetching album info for: Avril Lavigne Let Go
+2020-01-24 21:16:05,032 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:05,174 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Avril+Lavigne+album%3A+Let+Go&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 21:16:05,174 - root - INFO - Adding album art to: C:\opt\Tunes\Avril Lavigne\Let Go
+2020-01-24 21:16:05,177 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 21:16:05,273 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b273f7ec724fbf97a30869d06240 HTTP/1.1" 200 99929
+2020-01-24 21:16:05,273 - grabber - DEBUG - C:\opt\Tunes\Avril Lavigne\Let Go\cover.jpg
+2020-01-24 21:16:05,286 - root - DEBUG - album_art Avril Lavigne The Best Damn Thing C:\opt\Tunes\Avril Lavigne\The Best Damn Thing
+2020-01-24 21:16:05,286 - spotify - DEBUG - Fetching album info for: Avril Lavigne The Best Damn Thing
+2020-01-24 21:16:05,288 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:05,423 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Avril+Lavigne+album%3A+The+Best+Damn+Thing&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 21:16:05,428 - root - INFO - Adding album art to: C:\opt\Tunes\Avril Lavigne\The Best Damn Thing
+2020-01-24 21:16:05,434 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 21:16:05,540 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b273476cdf5837ae39eee951cc15 HTTP/1.1" 200 211614
+2020-01-24 21:16:05,542 - grabber - DEBUG - C:\opt\Tunes\Avril Lavigne\The Best Damn Thing\cover.jpg
+2020-01-24 21:16:05,572 - root - DEBUG - album_art Avril Lavigne Under My Skin C:\opt\Tunes\Avril Lavigne\Under My Skin
+2020-01-24 21:16:05,572 - spotify - DEBUG - Fetching album info for: Avril Lavigne Under My Skin
+2020-01-24 21:16:05,576 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:05,707 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=artist%3A+Avril+Lavigne+album%3A+Under+My+Skin&limit=2&type=album HTTP/1.1" 200 None
+2020-01-24 21:16:05,713 - root - INFO - Adding album art to: C:\opt\Tunes\Avril Lavigne\Under My Skin
+2020-01-24 21:16:05,713 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 21:16:05,799 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/ab67616d0000b2739c291af4bf0c3071847f2b80 HTTP/1.1" 200 85256
+2020-01-24 21:16:05,799 - grabber - DEBUG - C:\opt\Tunes\Avril Lavigne\Under My Skin\cover.jpg
+2020-01-24 21:16:05,823 - root - DEBUG - artist_art C:\opt\Tunes\Alice In Chains Alice In Chains
+2020-01-24 21:16:05,823 - spotify - DEBUG - Fetching artist info for: Alice In Chains
+2020-01-24 21:16:05,826 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:06,003 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Alice+In+Chains&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 21:16:06,009 - root - INFO - Adding artist art to: C:\opt\Tunes\Alice In Chains
+2020-01-24 21:16:06,015 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 21:16:06,114 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/5ccc3b59f6a4f44299a360d9fd3f45b69729654f HTTP/1.1" 200 126393
+2020-01-24 21:16:06,114 - grabber - DEBUG - C:\opt\Tunes\Alice In Chains\artist.jpg
+2020-01-24 21:16:06,127 - root - DEBUG - artist_art C:\opt\Tunes\Avril Lavigne Avril Lavigne
+2020-01-24 21:16:06,127 - spotify - DEBUG - Fetching artist info for: Avril Lavigne
+2020-01-24 21:16:06,128 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.spotify.com:443
+2020-01-24 21:16:06,275 - urllib3.connectionpool - DEBUG - https://api.spotify.com:443 "GET /v1/search?q=Avril+Lavigne&limit=2&type=artist HTTP/1.1" 200 None
+2020-01-24 21:16:06,279 - root - INFO - Adding artist art to: C:\opt\Tunes\Avril Lavigne
+2020-01-24 21:16:06,280 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): i.scdn.co:443
+2020-01-24 21:16:06,362 - urllib3.connectionpool - DEBUG - https://i.scdn.co:443 "GET /image/035ad2a01098302eb1d195668fe153c364cb77b1 HTTP/1.1" 200 114539
+2020-01-24 21:16:06,364 - grabber - DEBUG - C:\opt\Tunes\Avril Lavigne\artist.jpg
