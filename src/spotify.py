@@ -19,7 +19,7 @@ class Spotify:
                'Accept': 'application/json',
                'Content-Type': 'application/json'
                }
-    default_params = {'limit': 2}
+    default_params = {'limit': 5}
 
     def artist_info(self, artist_name):
         log.debug("Fetching artist info for: %s", artist_name)
