@@ -35,7 +35,7 @@ class Spotify:
         if len(payload['albums']['items']) == 0:
             results = self.call_api({'q': album_name, 'type': 'album'})
             for itm in results['albums']['items']:
-                if itm['name'] == artist_name:
+                if str(itm['name']).lower() == str(album_name).lower():
                     return results
         else:
             return payload
@@ -61,6 +61,7 @@ class Spotify:
             json_string = json.loads(resp.content)
             # store access token
             fileutil.write_file(self.token_path, str(json_string['access_token']))
+            exit(1)
         else:
             log.error("%s %s", resp.status_code, resp.text)
 
