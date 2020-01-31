@@ -57,15 +57,19 @@ def process_args():
 
 all_args = process_args()
 music_file_extensions = ['mp3', 'm4a', 'wma']
+album_count = 0
 
 
 def main():
     artist_album_list, artists = scan_folder(all_args.music_dir)
     album_art(artist_album_list)
     artist_art(artists)
+    log.debug("file count: {}".format(album_count))
 
 
 def scan_folder(music_dir):
+    global album_count
+    album_count = 0
     # breadth first search of folders (file type = folder); this_dir = os.path.dirname(os.path.realpath(__file__))
     artist_album = []
     artist = set()
@@ -75,8 +79,15 @@ def scan_folder(music_dir):
         for filename in files:
             # skip_existing
             directory_listing = os.listdir(root)
-            if directory_listing.__contains__('cover.jpg') or directory_listing.__contains__('artist.jpg'):
-                continue
+            album_count = album_count + 1
+            if directory_listing.__contains__('cover.jpg'):
+                artist_dir = root.split(os.sep)[-2]
+                artist_path = music_dir + os.sep + artist_dir
+                log.debug("The artist is {} in {}.".format(artist_dir, artist_path))
+                if not (os.listdir(artist_path).__contains__("artist.jpg")):
+                    log.info("Adding artist {}".format(artist_dir))
+                    artist.add(tuple({'location': artist_path, 'artist': artist_dir}.items()))
+                break
             # add to dicts based on file hierarchy convention (artist > album)
             if is_music_file(filename) and song_inside_album_folder(path):
                 # print(len(path) * '--', filename)
@@ -84,15 +95,9 @@ def scan_folder(music_dir):
                 # print("root '{}' has {} chunks.".format(root, len(chunks)))
                 a_a = {'location': root, 'artist': chunks[(len(chunks)-2)], 'album': chunks[(len(chunks)-1)]}
                 artist_album.append(a_a)
-                chunks.pop()
-                artist.add(tuple({'location': os.sep.join(chunks), 'artist': chunks[(len(chunks)-1)]}.items()))
                 break
             elif song_inside_album_folder(path):
                 log.debug("Remove %s %s" % (root, filename))
-            else:
-                hashable_element = tuple({'location': root, 'artist': root.split(os.sep)[-1]}.items())
-                artist.add(hashable_element)
-                log.debug("Album folder or artist art missing: {} {}".format(root, filename))
 
     return artist_album, artist
 
@@ -146,10 +151,20 @@ def extract_artist_art_url(artist):
     payload = client.artist_info(artist)
     # if found return image path, else return None
     try:
-        image = (str(payload['artists']['items'][0]['images'][0]['url']))
+        # try exact match first
+        for itm in payload['artists']['items']:
+            if str(itm['name']).lower() == str(artist).lower():
+                return str(itm['images'][0]['url'])
+        # try fuzzy match next
+        for itm in payload['artists']['items']:
+            if str(itm['name']).lower().__contains__(str(artist).lower()):
+                log.debug("Artist fuzzy match {} -> {}".format(str(itm['name']).lower(), str(artist).lower()))
+                return str(itm['images'][0]['url'])
+        # take first in returned payload
+        if payload['artists']['items'][0]:
+            return str(payload['artists']['items'][0]['images'][0]['url'])
     except:
         return None
-    return image
 
 
 def is_music_file(filename):
